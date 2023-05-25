@@ -11,11 +11,10 @@ export function Buttons({
   id,
   dropDownImage,
 }) {
-  const [showDiv, setShowDiv] = useState(false);
+  const [showDropDownList, setShowDropDownList] = useState(false);
 
   const handleButtonClick = () => {
-    showDiv ? setShowDiv(false) : setShowDiv(true);
-    console.log(showDiv);
+    showDropDownList ? setShowDropDownList(false) : setShowDropDownList(true);
   };
   return (
     <div>
@@ -36,7 +35,7 @@ export function Buttons({
           />
         ) : null}
       </button>
-      {showDiv ? (
+      {showDropDownList ? (
         <div className="buttonClick">
           <button>My Assigment</button>
           <button>Chat with Mentor</button>
