@@ -178,13 +178,20 @@
     letter-spacing: 28px;
   }
 }
-@media(max-width: 450px){
-  .referralCode{
+@media (max-width: 450px) {
+  .referralCode {
     width: 50vmax;
   }
 }
-@media(max-width: 400px){
-  .withDrawBalance button{
-    margin: -8vmax 0 0 -1.3vmax;
+@media (max-width: 400px) {
+  .withDrawBalance button {
+    margin: -3vmax 0 0 7.7vmax;
+  }
+  .referralCode {
+    color: #000;
+    margin: 31vmax 12vmax 0 -10vmax;
+  }
+  .totalReferral{
+    margin: -3vmax 0 0 7.7vmax;
   }
 }
