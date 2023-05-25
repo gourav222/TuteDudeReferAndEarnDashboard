@@ -191,7 +191,12 @@
     color: #000;
     margin: 31vmax 12vmax 0 -10vmax;
   }
-  .totalReferral{
+  .totalReferral {
     margin: -3vmax 0 0 7.7vmax;
+  }
+}
+@media (max-width: 365px) {
+  .referralCode {
+    margin: 40vmax 12vmax 0 -10vmax;
   }
 }
